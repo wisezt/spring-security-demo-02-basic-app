@@ -18,12 +18,7 @@
 
 	<dependencies>
 
-		<!-- Spring MVC support -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>${springframework.version}</version>
-		</dependency>
+
 
 		<!-- Spring Security -->
 		<!-- Spring Security web & Spring Security config -->
@@ -39,7 +34,12 @@
 			<version>${springsecurity.version}</version>
 		</dependency>
 
-
+		<!-- Spring MVC support -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
 
 
 
